@@ -1,0 +1,612 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header start */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+header .logo {
+    padding: 20px;
+    margin-left: 300px;
+}
+header .nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 300px;
+}
+header .nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .nav ul li {
+    list-style: none;
+    padding-right: 30px;
+    margin-top: 10px;
+    
+}
+header .nav ul li a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 530;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header .nav ul li a:hover {
+    color: #8490ff;
+}
+.checkBtn {
+    display: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    line-height: 80px;
+    float: right;
+    margin-right: -550px;
+}
+#check {
+    display: none;
+}
+/* header end */
+
+/* section one start */
+.section1 {
+    background: #f9f9ff;
+    width: 100%;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    
+}
+.section1 input {
+    cursor: pointer;
+}
+.introArea {
+    margin-top: -100px;
+}
+.introArea, .myPic {
+    width: 30%;
+    margin-top: 100px;
+    
+}
+
+.myPic img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    
+}
+.introArea h3 {
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin-top: 0;
+}
+.introArea h1 {
+    color: #222224;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.introArea p {
+    color: rgba(78, 78, 78, 0.6);
+    margin-top: -25px;
+}
+.introArea input {
+    padding: 9px 24px;
+    background: #8393ff;
+    color: #fff;
+    border: 1px solid #8393ff;
+    outline: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 14px;    
+}
+.introArea input:hover {
+    box-shadow: 2px 14px 30px rgba(130, 147, 255, 0.5);
+    transition: all 0.5s ease 0s;
+    outline: none;
+}
+/* section one end */
+
+/* section two start */
+.section2 {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutDetails {
+    width: 25%;
+    
+}
+.aboutDetails {
+    margin-left: 100px;
+}
+.aboutImg img {
+    width: 95%;
+    height: auto;
+}
+.aboutDetails h3 {
+    font-weight: normal;
+    font-size: 12px;
+    
+}
+.aboutDetails h1 {
+    font-size: 35px;
+}
+.aboutDetails p {
+    color: rgba(78, 78, 78, 0.6);
+    margin-top: 40px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.aboutDetails input {
+    padding: 9px 24px;
+    background: #8393ff;
+    color: #fff;
+    border: 1px solid #8393ff;
+    outline: none;
+    margin-top: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 14px;    
+}
+.aboutDetails input:hover {
+    box-shadow: 2px 14px 30px rgba(130, 147, 255, 0.5);
+    transition: all 0.5s ease 0s;
+    outline: none;
+}
+/* section 2 end */
+
+/* section 3 start */
+
+.section3 {
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.myOffer h1 {
+    font-size: 40px;
+    line-height: 10px;
+}
+.myOffer p {
+    width: 650px;
+    margin: 0 auto;
+    color: rgba(78, 78, 78, 0.6);
+}
+.serviceArea {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.serviceArea .services {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    margin-bottom: 50px;
+
+}
+.serviceArea .services i {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.serviceArea .services h1 {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    margin-top: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.serviceArea .services p {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 25px;
+    margin-top: 0px;
+}
+.services:hover h1 {
+    color: #8490ff;
+    transition: all ease 0.3s;
+}
+.services:hover i {
+    color: #8490ff;
+    transition: all ease 0.3s;
+    
+}
+
+/* section 3 end */
+
+/* section 4 start */
+
+.section4 {
+    width: 100%;
+    height: 300px;
+    display: flex;    
+    margin: 150px 0;
+}
+.section4 .liveUpdateResult {
+    width: 100%;
+    background: rgb(130, 147, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4 .liveUpdateResult .result {
+    padding: 0 80px;
+    
+}
+.section4 .liveUpdateResult .result h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+}
+.section4 .liveUpdateResult .result p {
+    text-align: center;
+    color: #fff;
+    margin: 5px;
+}
+/* section 4 end */
+
+/* Portfolio part start */
+.section5 {
+    width: 100%;
+    box-sizing: border-box;
+}
+.section5 .portfolioHeading {
+    text-align: center;
+}
+.section5 .portfolioHeading h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.section5 .portfolioHeading h4 {
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: -20px;
+}
+.section5 .parent {
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 150px auto;
+}
+
+.section5 .parent .child {
+    height: 340px;
+    height: 339px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: 30px 20px;
+    
+}
+.section5 .parent .child h1 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.section5 .parent .child p {
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 0;
+}
+.section5 figure {
+    background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+    height: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+.section5 figure:hover img {
+    opacity: 0.3;
+    transition: all 0.3s ease;
+}
+
+/* Portfolio part end */
+
+/* section 6 start */
+
+.section6 {
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+}
+.planHeading {
+    text-align: center;
+    padding: 2% 0;
+}
+.planHeading h1 {
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+.planHeading p {
+    color: rgba(0, 0, 0, 0.5);
+}
+.section6 .tableParent {
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section6 .tableParent .priceTable {
+    width: 300px;
+    height: 600px;
+    background: rgb(249, 249, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.section6 .tableParent .priceTable h1 {
+    font-size: 50px;
+    padding-top: 8px;
+
+}
+.section6 .tableParent .priceTable input {
+    outline: none;
+    background: #8293ff;
+    color: #fff;
+    padding: 8px 60px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.section6 .tableParent .priceTable:hover {
+    background: #8293ff;
+    color: #fff;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+    
+}
+.section6 .tableParent .priceTable:hover input {
+    color: rgba(0, 0, 0, 0.9);
+    background: #fff;
+}
+
+/* section 6 end */
+
+/* footer part start */
+
+footer {
+    background: rgb(4, 9, 30);
+    color: #fff;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-top: 200px;
+}
+footer .parentFoot {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+footer .parentFoot .ChildFoot p {
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .parentFoot .ChildFoot input {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .parentFoot .ChildFoot button {
+    font-size: 18px;
+    background: #8293ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 14px;
+}
+footer .parentFoot .ChildFoot i {
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+footer .parentFoot .ChildFoot i:hover {
+    color: #8293ff;
+}
+
+/* footer part end */
+
+/* Responsive part start */
+
+@media (max-width:768px) {
+    header {
+        width: 100%;
+        height: auto;
+    }
+    header .logo {
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkBtn {
+        display: block;
+    }
+    header .nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #f9f9f9;
+        top: 54px;
+        left: -200%;
+        transition: all 0.1s;
+    }
+    header .nav ul li {
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    header .nav ul li a {
+        font-size: 23px;
+        font-weight: bold;
+        text-align: center;
+    }
+    #check:checked ~ ul {
+        display: block;
+        left: 0;
+    }
+    #check:checked ~ ul li {
+        display: block;
+        
+    }
+}
+@media (max-width:768px) {
+    .section1 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .section1 .introArea {
+        margin: auto;
+        padding: 0;
+        margin-top: 70px;
+    }
+    .introArea, .myPic {
+        width: 40%;
+        margin-top: 100px;        
+    }
+    .introArea h3 {
+        font-size: 15px;
+    }
+    .introArea h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .myPic img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 200px;     
+        margin-top: -50px;
+
+    }
+
+    .section2 {
+        width: 100%;
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutDetails {
+        width: 50%;
+        margin-right: 20px;
+        
+    }
+
+    .serviceArea {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+    }
+
+    .serviceArea .services {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 0;
+        
+    
+    }
+    
+
+
+    .section4 .liveUpdateResult .result {
+        padding: 0 20px;
+        
+    }
+
+
+
+
+    .section6 {
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+
+    .section6 .tableParent {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .section6 .tableParent .priceTable h1 {
+        font-size: 35px;
+        padding-top: 8px;
+    
+    }
+    .section6 .tableParent .priceTable {
+        text-align: center;
+        margin: 50px auto;
+        
+    }
+
+
+    footer {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        
+        
+    }
+    footer .parentFoot {
+        width: 100%;
+        display: block;
+        position: relative;
+        top: 120px;
+        
+    }
+    footer .parentFoot .ChildFoot {
+        margin: 50px 40px;
+    }
+    
+
+    
+    
+    
+    
+}
